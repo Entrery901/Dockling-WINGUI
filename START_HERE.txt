@@ -1,0 +1,56 @@
+========================================
+  Dockling WINGUI
+  Документ → Markdown для RAG и ИИ. Работает из коробки.
+  Document → Markdown for RAG and AI. Works out of the box.
+========================================
+
+--- БЫСТРЫЙ СТАРТ / QUICK START ---
+
+1. Скопируйте env.example в .env (в ту же папку, что и DocklingGUI.exe).
+   Copy env.example to .env (same folder as DocklingGUI.exe).
+
+2. Создайте папки input и output (или укажите свои в настройках).
+   Create input and output folders (or set your own in settings).
+
+3. Запустите DocklingGUI.exe.
+   Run DocklingGUI.exe.
+
+   ⚠ Первый запуск — более 2 минут (инициализация моделей). Дождитесь появления окна.
+   ⚠ First run — over 2 minutes (model init). Wait for the window to appear.
+
+4. В GUI: выберите папки, при необходимости настройте OCR и нажмите «Начать конвертацию».
+   In the GUI: choose folders, adjust OCR if needed, click «Start Conversion».
+
+--- ДОКУМЕНТАЦИЯ / DOCUMENTATION ---
+
+  README_RU.md / README_EN.md      — краткое описание / short overview
+  DOCUMENTATION_RU.md              — полное руководство + ручная сборка (RU)
+  DOCUMENTATION_EN.md              — full guide + manual build (EN)
+
+--- ТРЕБОВАНИЯ / REQUIREMENTS ---
+
+  Windows 10/11 (64-bit), 4–8 GB RAM, ~3 GB disk.
+  NVIDIA GPU (optional, for acceleration).
+
+--- ФОРМАТЫ / FORMATS ---
+
+  PDF, DOCX, DOC, PPTX, PPT, XLSX, XLS, HTML, XML, MD.
+
+--- ЯЗЫК / LANGUAGE ---
+
+  Переключатель РУ / EN в правом верхнем углу окна.
+  RU / EN switch in the top-right corner of the window.
+
+--- TESSERACT ---
+
+  По умолчанию EasyOCR (встроен). Для Tesseract: кнопка «Установить Tesseract...»
+  во вкладке «Обработка» / «Processing».
+  Default: EasyOCR (bundled). For Tesseract: use «Install Tesseract...» in the
+  Processing tab.
+
+--- ПОМОЩЬ / HELP ---
+
+  Логи: conversion.log в папке приложения.
+  Logs: conversion.log in the application folder.
+
+========================================
